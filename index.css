@@ -5,3 +5,19 @@ body {
   font-weight: 400, 500;
   margin: 0;
 }
+
+header {
+  background-color: #5f29a3;
+  padding: 45px 0px;
+}
+
+h1 {
+  font-size: 36px;
+  color: whitesmoke;
+
+}
+
+h3 {
+  font-size: 20px;
+  color: #d0aaff;
+}
