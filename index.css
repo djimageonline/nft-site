@@ -1,3 +1,5 @@
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -6,10 +8,8 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: #5f29a3;
-  padding: 45px 0;
-}
+
+/* Typography */
 
 h1 {
   font-size: 36px;
@@ -28,10 +28,39 @@ h3 {
   margin: 0;
 }
 
+
+/* links */
+
+a{
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+a:hover{
+  color: #d4b44c;
+  
+}
+
+a:active{
+  color: #d4b44c;
+}
+
+/* layout */
+
+header {
+  background-color: #5f29a3;
+  padding: 45px 0;
+}
+
 section {
   padding: 45px 0;
 }
 
 .sneaker-img{
   width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 620px;
 }
