@@ -11,10 +11,13 @@ body {
 
 /* Typography */
 
+h1, h3 {
+  margin: 0;
+}
+
 h1 {
   font-size: 36px;
   color: whitesmoke;
-  margin: 0;
 
 }
 
@@ -25,7 +28,6 @@ h2{
 h3 {
   font-size: 20px;
   color: #d0aaff;
-  margin: 0;
 }
 
 
@@ -36,29 +38,29 @@ a{
   text-decoration: underline dotted;
 }
 
-a:hover{
+a:hover, a:active{
   color: #d4b44c;
   
 }
 
-a:active{
-  color: #d4b44c;
-}
-
 /* layout */
 
-header {
+header, .section-crypto {
   background-color: #5f29a3;
-  padding: 45px 0;
 }
 
-section {
+header, 
+section, 
+footer {
   padding: 45px 0;
 }
 
 .section-crypto{
-  background-color: #5f29a3;
   color: whitesmoke;
+}
+
+.section-crypto p{
+line-height: 23px;
 }
 
 .sneaker-img{
@@ -79,4 +81,10 @@ section {
 .item-container{
   display: flex;
   justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  color: #5f29a3;
 }
