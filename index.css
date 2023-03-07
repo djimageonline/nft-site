@@ -43,6 +43,48 @@ a:hover, a:active{
   
 }
 
+.info-btn, 
+.contact-btn {
+  color: #5f39a3;
+  background-color: #f0e0ff;
+
+}
+
+.buy-btn, 
+.info-btn, 
+.about-btn, 
+.contact-btn{
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buy-btn{
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.about-btn{
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
+
+.buy-btn:hover,
+.info-btn:hover,
+.about-btn:hover,
+.contact-btn:hover,
+.buy-btn:active,
+.info-btn:active,
+.about-btn:active,
+.contact-btn:active
+{
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+
 /* layout */
 
 header, .section-crypto {
