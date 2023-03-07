@@ -56,11 +56,27 @@ section {
   padding: 45px 0;
 }
 
+.section-crypto{
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
 .sneaker-img{
   width: 100%;
 }
 
+
 .container {
   margin: 0 auto;
   width: 620px;
+}
+
+.img-pics {
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+.item-container{
+  display: flex;
+  justify-content: space-between;
 }
